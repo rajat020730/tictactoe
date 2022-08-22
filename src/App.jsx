@@ -1,10 +1,9 @@
-import React from "react";
-
+import React from 'react';
+import Board from './Components/Board';
+import Square from './Components/Square';
 export default () => (
   <React.Fragment>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
-    <p>This app is made by me</p>
-    oh really I can write anything in This
+    <h1>Tic Tac Toe!</h1>
+    <Board />
   </React.Fragment>
 );
