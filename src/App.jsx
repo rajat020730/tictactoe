@@ -1,9 +1,10 @@
 import React from 'react';
 import Board from './Components/Board';
 import Square from './Components/Square';
+import './Styles/root.scss';
 export default () => (
-  <React.Fragment>
+  <div className="app">
     <h1>Tic Tac Toe!</h1>
     <Board />
-  </React.Fragment>
+  </div>
 );
